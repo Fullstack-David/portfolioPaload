@@ -1,62 +1,53 @@
 # Node modules
 node_modules/
 
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
-# OS och Editor-filer
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Environment variables
-.env
-.env.*.local
-
 # Build output
-dist/
-build/
 .next/
 out/
-coverage/
+dist/
+build/
 
 # TypeScript
 *.tsbuildinfo
 
-# Lint cache
-.eslintcache
+# Environment variables
+.env
+.env.local
+.env.*.local
 
-# Optional npm cache directory
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor & OS files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+
+# Lint/Formatter
+.eslintcache
+.prettiercache
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Testing
+coverage/
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.pid.lock
+
+# Payload CMS uploads (anpassa sökväg om du använder filuppladdning)
+media/
+uploads/
+
+# Optional npm cache
 .npm/
 
-# Local Netlify folder
-.netlify/
-
-# Output of 'npm pack'
-*.tgz
-
-# Bun
-.bun/
-
-# Parcel-bundles
-.cache/
-
-# SvelteKit
-.svelte-kit/
-
-# Storybook
-storybook-static/
-
-# VS Code workspace settings
+# VS Code workspace
 *.code-workspace
